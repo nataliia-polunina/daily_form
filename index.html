@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Daily form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="icon" href="favicon.png" type="image/png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<div class="container ba-absolute-center ">
+		<svg width="24" height="24">
+			<use xlink:href="#sign"></use>
+		</svg>
+		<h1 class="container__title">Create your free account</h1>
+		<p class="container__text">Come and join our cool and amazing community, fill in your details to get started. Already have an account?<a href="#">  Log in.</a></p>
+		<form class="form" action method="post">
+			<input type="text" name="first-name" placeholder="First name" required>
+			<input type="text" name="last-name" placeholder="Last name" required>
+			<input type="email" name="email" placeholder="Email address" required>
+			<input type="password" name="password" placeholder="Password" required>
+			<button>Sign up for free</button>
+		</form>
+		<p class="container__text container__text--sm">By clicking on “Sign up for free”, you agree to the <a href="#">Terms of Service</a> and the <a href="#">Privacy Policy</a> </p>
+	</div>
+	<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+		<symbol id="sign" viewBox="0 0 23.969 24">
+			<path id="sign.svg" fill="#df2671"
+        	fill-rule="evenodd" d="M223.043,89.906A6.594,6.594,0,0,0,212.168,96.8l-9.809,9.831-1.338,4.014,4.006,1.337,1.194-1.337,3.864-1.339v-2.674l1.473-1.337,1.406,1.337,2.7-2.676-1.317-1.337,1.811-1.809A6.6,6.6,0,0,0,223.043,89.906Zm-3.165,5.32a2.148,2.148,0,1,1,2.143-2.148A2.146,2.146,0,0,1,219.878,95.226Z" transform="translate(-201.031 -87.969)"/>
+		</symbol>
+	</svg>	
+</body>
+</html>
